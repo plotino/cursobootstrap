@@ -1,0 +1,124 @@
+/*
+primry: #2a9d8f
+secondary: #e9c46a
+danger: #e76f51
+info: #f4a261
+
+*/
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container {
+    width: 95%;
+    /*max-width: 1080px;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    margin: 20px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5em;
+    margin: 0.01em;
+    border-radius: 0.5em;
+}
+
+.btn-primary {
+
+    background-color: #e9c46a;
+    color: black;
+
+}
+
+.btn-secondary {
+
+    background-color: #2a9d8f;
+    color: white;
+}
+
+.btn-danger {
+    background-color: #e76f51;
+    color: white;
+}
+
+.btn-info {
+    background-color: #f4a261;
+    color: white;
+}
+
+.logo {
+    display: block;
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+    text-align: center;
+    font-size: 3rem;
+    background-color: #2a9d8f;
+
+}
+
+.card {
+    width: 25rem;
+    background-color: tomato;
+    /*overflow: hidden;*/
+    color: white;
+    border-radius: 0.5rem;
+
+
+}
+
+.card-img {
+    width: 100%;
+
+}
+
+.card-body {
+    padding: 1em;
+
+}
+
+.card-body h5 {
+    font-size: 1.5rem;
+    margin: 1em 0;
+    font-weight: 400;
+
+}
+
+.card-body p {
+    font-weight: 100;
+    line-height: 2em;
+
+}

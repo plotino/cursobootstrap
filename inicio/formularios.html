@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios web</title>
+</head>
+<body>
+    <form action="enviando.html" method="GET">
+        <label for="nombre">Nombre: </label>
+        <input name="nombre" id="nombre" type="text" placeholder="NOMBRE AQUI">
+        <br>
+        <label for="apellido"> Apellidos </label>
+        <input name="apellido" type="text" id="apellido" placeholder="Apellido">
+        <br>
+        <label for="mail"> Mail</label>
+        <input name="mail" type="email" required id="mail" placeholder="Mail">
+        <br>
+        <label for="pass"> contraseña</label>
+        <input name="pass" type="password" required id="pass" placeholder="contraseña">
+        <br>
+        <label for="control"> no soy un robot</label>
+        <input name="control" required id="control"type="radio" value="robot">
+        <br>
+        <label for="control2"> sí soy un robot</label>
+        <input name="control" id="control2"type="radio" value="robot2">
+        <br>
+        <label for="color"> color </label>
+        <input name="apellido" type="color" id="apellido" placeholder="Apellido">
+        <br>
+        <label for="color"> fecha </label>
+        <input name="apellido" type="date" id="apellido" placeholder="Apellido">
+        <br>
+        <label for="color"> archivo </label>
+        <input name="apellido" type="file" id="apellido" placeholder="Apellido">
+
+
+    <br>
+    <textarea name="mensaje" id="mensaje" cols="30" rows="10"> envia rt texto aqui</textarea>
+        <button type="submit">agregar</button>
+
+    </form>
+
+</body>
+</html>

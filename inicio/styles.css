@@ -1,0 +1,35 @@
+body {
+    background-color: red;
+}
+
+.main {
+    display: grid;
+    gap: 8rem;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    background-color: burlywood;
+    padding: 30px;
+    margin-bottom: 90px;
+}
+
+
+p {
+    padding: 10px;
+    margin: 9px;
+    border-style: dashed;
+
+}
+
+
+#elultimo {
+    color: rgb(59, 199, 31);
+    font-size: 454px;
+}
+
+.tablas {
+    border: solid khaki;
+}
+
+.border-solido {
+    border-style: dashed;
+}
